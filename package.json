@@ -1,0 +1,48 @@
+{
+  "name": "piano-task",
+  "version": "1.0.0",
+  "description": "Piano task for FlowKey",
+  "main": "index.js",
+  "repository": "https://github.com/sbayd/react-parcel-boilerplate.git",
+  "author": "Haroon Dilshad <harundilshad@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "lint-staged": {
+    "src/**/*.{js,json,md,scss,css}": [
+      "prettier --write",
+      "git add"
+    ]
+  },
+  "scripts": {
+    "start": "parcel public/index.html",
+    "precommit": "lint-staged",
+    "prettier": "prettier --write 'src/**/*.{js,json,md,scss,css}'"
+  },
+  "dependencies": {
+    "@material-ui/core": "^3.0.0",
+    "@material-ui/icons": "3.0.1",
+    "babel-polyfill": "6.26.0",
+    "lodash": "4.17.10",
+    "react": "^16.3.0",
+    "react-dom": "^16.3.0",
+    "react-redux": "5.0.7",
+    "recompose": "0.30.0",
+    "redux": "4.0.0",
+    "redux-thunk": "2.3.0",
+    "reselect": "3.0.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "8.6.2",
+    "babel-plugin-transform-class-properties": "6.24.1",
+    "babel-plugin-transform-object-rest-spread": "6.26.0",
+    "babel-preset-env": "1.7.0",
+    "babel-preset-react": "6.24.1",
+    "eslint": "4.19.1",
+    "eslint-plugin-react": "7.9.1",
+    "mocha": "5.2.0",
+    "node-sass": "4.9.0",
+    "parcel-bundler": "1.8.1",
+    "postcss-modules": "1.1.0",
+    "prettier": "1.14.2"
+  }
+}

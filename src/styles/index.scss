@@ -1,0 +1,30 @@
+body {
+  display: flex;
+  background-color: grey;
+  p {
+    color: red;
+  }
+}
+
+.wrapper {
+  position: absolute;
+  top: 50%;
+}
+button.whiteKey {
+  background-color: white;
+  padding: 0;
+  height: 200px;
+  min-width: 30px;
+  margin: 1px;
+}
+button.blackKey {
+  background-color: black;
+  padding: 0;
+  height: 100px;
+  min-width: 20px;
+  margin: 1px;
+}
+#controls > button,
+div {
+  margin-right: 5px !important;
+}
